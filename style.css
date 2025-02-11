@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(232, 211, 243);
+    text-align: center;
+    color: #873393;
+}
+h1{
+    align-items: center;   
+}
+#winbox{
+    height: 30px;
+    font-size: 50px;
+    font-style: oblique;
+    color: #3e115b;
+}
+
+.container{
+    height: 60vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+   
+}
+.hero{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: centre;
+    align-items: center;
+    gap: 1.5vmin;
+    background-color: rgb(55, 4, 74);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-block-end: 20px;
+    box-shadow:white;
+    border-radius: 20px;
+    border: none;
+}
+.buttom{
+    height:18vmin;
+    width:18vmin;
+    background-color:#c1c1c1;
+    /* border-style: none; */
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 20px 20px 60px #f9f5f541,inset -20px -20px 60px #fbf7ff40;
+    font-size: 8vmin;
+    /* color: rgb(4, 4, 4); */
+    background-color: rgb(188, 195, 200);
+    
+    
+}
+/* duck gif */
+.duck{
+
+    position: absolute;
+    display: none;
+    top: 25%;
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+}
+.duck img{
+    width: 0;
+    transition: width 5s ease-in-out;
+}
+
+.buttom:hover {
+    background-color: rgb(144, 76, 166);
+  }
+#rst-bn{
+    margin-top: 23px;
+    padding: 0.57rem;
+    font-size: 1.25rem;
+    background-color: #7d278a;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    display: flex;
+
+}
+
+.hide{
+    display: none;
+}
+#new-btn{
+    background-color:#7d278a;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-right: 25px;
+   
+}
+ /* #rst{
+    display:flex;
+} */
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.turn0{
+    margin-left: 100px;
+}
+.turnX{
+    margin-right: 100px;
+}
+.music-btn{
+    margin-top: 15px;
+    padding: 0.57rem;
+    font-size: 1.25rem;
+    background-color: #7d278a;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-right: 23px;
+    display: flex;
+    margin-right: 535px;
+}
+h5{
+    display: flex;
+}
+#music{
+    display: flex;
+}
+.lower_section{
+    background-color: coral; 
+}
+
+@media screen and (max-width: 940px) {
+    .hero {
+      height: 400px;
+      width: 400px;
+      gap: 25px;
+      
+    }
+    .buttom{
+        height:110px;
+        width:110px;
+    }
+  }
+
+  
+ @media screen and (max-width: 650px){
+    .hero {
+        height: 210px;
+        width: 210px;
+        gap: 11px;
+        
+      }
+      .buttom{
+        height:58px;
+        width:58px;
+    }
+    .container{
+        height: 50vh;  
+    }
+    #winbox{
+        font-size: 20px;
+        
+    }
+   
+   
+}
+  
+
